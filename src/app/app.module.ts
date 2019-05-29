@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { SignatureComponent } from './components/signature/signature.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SignatureComponent
   ],
   imports: [
     BrowserModule
